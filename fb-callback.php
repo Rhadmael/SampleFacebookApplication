@@ -6,8 +6,8 @@ ini_set('display_errors', 1);
 error_reporting(~0);
 require_once __DIR__ . '/vendor/facebook/graph-sdk/src/Facebook/autoload.php';
 $fb = new Facebook\Facebook([
-  'app_id' => '1222199474552625', // Replace {app-id} with your app id
-  'app_secret' => 'e0f69f318b6e71af6e944e50303a1e18',
+  'app_id' => '{app-id}', // Replace {app-id} with your app id
+  'app_secret' => '{app-secret-id}',// Replace {app-secret-id} with your app id
   'default_graph_version' => 'v2.2',
   ]);
 
